@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>PonyBuy spreadsheet po polsku | Kategorie, rozmiary i zdjęcia QC</title>
+  <meta name="description" content="PonyBuy spreadsheet po polsku. Przeglądaj kategorie Hipobuyfind, porównaj wymiary, sprawdź zdjęcia QC i oszacuj koszt dostawy do Polski.">
+  <meta name="theme-color" content="#101f2c">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:title" content="PonyBuy spreadsheet po polsku | Kategorie, rozmiary i zdjęcia QC">
+  <meta property="og:description" content="Polski przewodnik po linkach do produktów, rozmiarach, zdjęciach QC i kosztach dostawy.">
+  <!-- Bing zwrócił pustą listę wyników dla zapytania. Tematy opracowano na podstawie dziesięciu witryn znalezionych w wyszukiwaniu uzupełniającym. -->
+  <style>
+    :root{color-scheme:light;--navy:#101f2c;--ink:#162937;--muted:#405765;--paper:#f3f7f6;--white:#fff;--mint:#c6f6df;--line:#c7d8d5;--teal:#115c4a;--frame:72rem}
+    *,*::before,*::after{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+    h1,h2,h3,p,figure{margin:0}
+    h1,h2,h3{line-height:1.12}
+    h1{font-size:clamp(2.55rem,7vw,5.65rem);letter-spacing:-.065em;overflow-wrap:anywhere}
+    h2{font-size:clamp(1.65rem,4vw,2.7rem);letter-spacing:-.04em}
+    h3{font-size:1.18rem}
+    a{color:inherit;text-underline-offset:.2em}
+    a:focus-visible,summary:focus-visible{outline:3px solid #0d8268;outline-offset:4px}
+    .dark a:focus-visible{outline-color:var(--mint)}
+    img{display:block;width:100%;height:auto}
+    .wrap{width:min(var(--frame),calc(100% - 2rem));margin-inline:auto}
+    .dark{background:var(--navy);color:var(--white)}
+    .top,.foot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem 1rem;padding-block:1rem}
+    .brand{font-weight:780;letter-spacing:.02em}
+    .eyebrow{font-size:.76rem;font-weight:750;letter-spacing:.12em;text-transform:uppercase;color:var(--teal)}
+    .dark .eyebrow{color:var(--mint)}
+    .hero{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);align-items:center;gap:clamp(1.3rem,5vw,4rem);padding-block:clamp(1.2rem,4vw,3.25rem) clamp(1.8rem,5vw,4rem)}
+    .hero h1{margin-block:.35rem .75rem}
+    .hero .intro{max-width:58ch;color:#e5eeef;font-size:1.07rem}
+    .button{display:inline-block;margin-top:1rem;padding:.65rem 1rem;border-radius:.45rem;background:var(--mint);color:var(--navy);font-weight:760}
+    .hero figure{overflow:hidden;border-radius:.75rem;background:#e0eee9;color:var(--ink)}
+    .hero img{height:clamp(11rem,28vw,19rem);object-fit:contain;background:#e0eee9}
+    figcaption{padding:.55rem .75rem;font-size:.85rem;line-height:1.4;color:var(--muted)}
+    .section{margin-block:clamp(1.8rem,5vw,3.8rem)}
+    .section h2{margin-block:.25rem .55rem}
+    .section-intro{max-width:68ch;color:var(--muted)}
+    .categories,.steps{margin:1rem 0 0;padding:0;list-style:none}
+    .categories{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.45rem}
+    .categories a{display:flex;height:100%;min-height:3.8rem;align-items:center;gap:.55rem;padding:.65rem .55rem;border:1px solid var(--line);border-radius:.45rem;background:var(--white);font-size:.9rem;font-weight:720;line-height:1.3;overflow-wrap:anywhere}
+    .categories a:hover{background:var(--mint)}
+    .categories span{color:var(--teal);font-size:.75rem;font-variant-numeric:tabular-nums}
+    .method{padding:clamp(1.1rem,4vw,2rem);border-radius:.75rem;background:var(--mint)}
+    .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+    .steps li{border-top:2px solid var(--teal);padding-top:.75rem}
+    .steps h3,.articles h3{margin-bottom:.4rem}
+    .gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.65rem;margin-top:1rem}
+    .gallery figure{overflow:hidden;border:1px solid var(--line);border-radius:.55rem;background:var(--white)}
+    .gallery img{aspect-ratio:4/3;object-fit:contain;background:#f7f7f5}
+    .articles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.7rem;margin-top:1rem}
+    .articles article{padding:1rem;border-top:3px solid var(--teal);background:var(--white)}
+    .articles p+p{margin-top:.6rem}
+    .faq details{border-bottom:1px solid var(--line)}
+    .faq summary{padding:.75rem 0;cursor:pointer;font-weight:740}
+    .faq details p{max-width:72ch;padding:0 0 .8rem 1rem;color:var(--muted)}
+    .foot p{font-size:.9rem;color:#dce8ea}
+    @media(max-width:54rem){.categories{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    @media(max-width:42rem){.hero,.steps,.articles{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.hero img{height:11rem}}
+    @media(max-width:30rem){.categories{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "pl",
+    "name": "PonyBuy spreadsheet – kategorie, rozmiary i zdjęcia QC",
+    "description": "Polski przewodnik po kategoriach Hipobuyfind, linkach do produktów, rozmiarach, zdjęciach QC i kosztach dostawy do Polski.",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Co to jest PonyBuy spreadsheet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To określenie katalogu znalezisk i linków do produktów. Na tej stronie kategorie prowadzą do Hipobuyfind, gdzie można przeglądać produkty według rodzaju."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Gdzie znaleźć linki do produktów i zdjęcia QC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Otwórz kategorię i kartę wybranego produktu. Jeśli sprzedawca lub pośrednik udostępnia zdjęcia QC, sprawdź, czy dotyczą wybranego koloru, rozmiaru i egzemplarza."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Jak dobrać rozmiar butów przy zakupie online?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zmierz obie stopy w centymetrach i użyj wyniku dla dłuższej stopy. Porównaj go z tabelą dla konkretnego modelu i upewnij się, czy tabela podaje długość stopy, czy długość wkładki."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Jak sprawdzić łączny koszt dostawy do Polski?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sprawdź cenę produktu i walutę, a potem dodaj wysyłkę krajową, opłatę pośrednika, koszt wysyłki międzynarodowej i ewentualne należności importowe. Porównuj wyceny w tej samej walucie."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Czy zdjęcia QC potwierdzają autentyczność produktu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Same zdjęcia QC pomagają ocenić widoczne cechy, takie jak szwy, etykieta i kolor. Do sprawdzenia autentyczności potrzebne są informacje o pochodzeniu i dokument zakupu od wiarygodnego sprzedawcy."
+        }
+      }
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/xhvmf/">
+</head>
+<body>
+  <header class="dark">
+    <div class="wrap">
+      <div class="top">
+        <a class="brand" href="https://www.hipobuyfind.com">hipobuyfind.com</a>
+        <span class="eyebrow">Przewodnik zakupowy po polsku</span>
+      </div>
+      <div class="hero">
+        <div>
+          <p class="eyebrow">Kategorie · wymiary · kontrola jakości</p>
+          <h1>PonyBuy spreadsheet</h1>
+          <p class="intro">Wybierz kategorię w Hipobuyfind, a potem porównaj wymiary, zdjęcia i koszt dostawy. Zacznij od rodzaju produktu, który chcesz kupić, i zapisz dokładny wariant przed zamówieniem.</p>
+          <a class="button" href="https://www.hipobuyfind.com">Przejdź do katalogu Hipobuyfind</a>
+        </div>
+        <figure>
+          <img src="https://www.sneakers4u.nl/img/images/2023/04/11/DH8010_101_C_PREM.png" width="1000" height="1000" loading="eager" fetchpriority="high" decoding="async" alt="Biały but Nike Air Max 90 z czarnym logo Swoosh">
+          <figcaption>Nike Air Max 90 · przykład modelu obuwia</figcaption>
+        </figure>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="section" aria-labelledby="kategorie">
+      <p class="eyebrow">01 / Katalog</p>
+      <h2 id="kategorie">Kategorie produktów Hipobuyfind</h2>
+      <p class="section-intro">Otwórz wybraną kategorię, aby przejrzeć obuwie, odzież sportową lub dodatki.</p>
+      <ul class="categories" role="list">
+        <li><a href="https://hipobuyfind.com/category-911-Shoes.html"><span aria-hidden="true">01</span> Buty</a></li>
+        <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html"><span aria-hidden="true">02</span> Bluzy i swetry</a></li>
+        <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html"><span aria-hidden="true">03</span> T-shirty</a></li>
+        <li><a href="https://hipobuyfind.com/category-914-Jackets.html"><span aria-hidden="true">04</span> Kurtki</a></li>
+        <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html"><span aria-hidden="true">05</span> Spodnie i szorty</a></li>
+        <li><a href="https://hipobuyfind.com/category-916-Headwear.html"><span aria-hidden="true">06</span> Czapki i kapelusze</a></li>
+        <li><a href="https://hipobuyfind.com/category-917-Sets.html"><span aria-hidden="true">07</span> Komplety</a></li>
+        <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html"><span aria-hidden="true">08</span> Bielizna</a></li>
+        <li><a href="https://hipobuyfind.com/category-919-Jersey.html"><span aria-hidden="true">09</span> Koszulki sportowe</a></li>
+        <li><a href="https://hipobuyfind.com/category-920-Accessories.html"><span aria-hidden="true">10</span> Akcesoria</a></li>
+      </ul>
+    </nav>
+    <section class="section method" aria-labelledby="kontrola">
+      <p class="eyebrow">02 / Lista kontrolna</p>
+      <h2 id="kontrola">Od linku do wybranego wariantu</h2>
+      <ol class="steps" role="list">
+        <li>
+          <h3>1. Zapisz link do produktu</h3>
+          <p>Sprawdź nazwę sprzedawcy, numer modelu i dostępność rozmiaru. Przy ofertach z Weidian, Taobao lub 1688 zanotuj oryginalny adres oraz dokładną nazwę wybranego koloru.</p>
+        </li>
+        <li>
+          <h3>2. Porównaj wymiary</h3>
+          <p>Otwórz tabelę rozmiarów sprzedawcy. Przy odzieży porównaj pomiary z ubraniem, które dobrze na Tobie leży. Przy butach zacznij od długości stopy w centymetrach.</p>
+        </li>
+        <li>
+          <h3>3. Sprawdź zdjęcia QC</h3>
+          <p>Jeśli są dostępne, porównaj zdjęcie etykiety, wygląd szwów i wybrany wariant kolorystyczny. Gdy brakuje ważnego ujęcia, poproś o zbliżenie przed zatwierdzeniem wysyłki.</p>
+        </li>
+      </ol>
+    </section>
+    <section class="section" aria-labelledby="detale">
+      <p class="eyebrow">03 / Detale produktu</p>
+      <h2 id="detale">Co można porównać na zdjęciu?</h2>
+      <p class="section-intro">Poniżej pokazano przykładowe modele marek. Zdjęcia służą do porównania detali i mają charakter ilustracyjny.</p>
+      <div class="gallery">
+        <figure>
+          <img src="https://au.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-signature-embroidery-t-shirt--FVTB01API001_PM2_Front%20view.jpg?wid=480" width="490" height="490" loading="lazy" decoding="async" alt="Biała koszulka Louis Vuitton z krótkimi rękawami">
+          <figcaption>Louis Vuitton · dekolt i krój koszulki</figcaption>
+        </figure>
+        <figure>
+          <img src="https://media.gucci.com/style/HEXFBFBFB_South_0_160_640x640/1751298339/838745_3HBC4_2600_001_100_0000_Light.jpg" width="640" height="640" loading="lazy" decoding="async" alt="Beżowo-brązowa czapka Gucci z daszkiem i wzorem GG">
+          <figcaption>Gucci · profil daszka i układ wzoru</figcaption>
+        </figure>
+        <figure>
+          <img src="https://assets.hermes.com/is/image/hermesproduct/bracelet-clic-h--700001F%204P-front-1-300-0-1000-1000_b.jpg" width="1000" height="1000" loading="lazy" decoding="async" alt="Bransoletka Hermès Clic H z zapięciem w kształcie litery H">
+          <figcaption>Hermès · zapięcie i szerokość bransoletki</figcaption>
+        </figure>
+        <figure>
+          <img src="https://assets.christiandior.com/is/image/diorprod/3SN272ZSBH000_SBG_E02-6?$r4x5_raw$&amp;crop=0,0,4000,5000&amp;wid=480&amp;hei=600&amp;scale=1&amp;bfc=on&amp;qlt=75" width="480" height="600" loading="lazy" decoding="async" alt="Biały skórzany sneaker Dior B27 Uptown z niską cholewką">
+          <figcaption>Dior · linia cholewki i podeszwa</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="poradniki">
+      <p class="eyebrow">04 / Poradniki zakupowe</p>
+      <h2 id="poradniki">Rozmiary, jakość i dostawa</h2>
+      <div class="articles">
+        <article>
+          <h3>Jak dobrać rozmiar sneakersów?</h3>
+          <p>Zmierz obie stopy na stojąco i zapisz dłuższy wynik. Sprawdź, czy tabela podaje długość stopy, czy długość wkładki. Przy szerokiej stopie zapytaj także o szerokość przodu buta.</p>
+          <p>Na zdjęciach pary porównaj kształt noska, wysokość zapiętka i wykończenie podeszwy. Przy zakupie butów przez internet upewnij się, że zdjęcie metki dotyczy rozmiaru, który zamawiasz.</p>
+        </article>
+        <article>
+          <h3>Jak sprawdzić wymiary bluzy lub spodni?</h3>
+          <p>Zmierz na płasko szerokość pod pachami, długość rękawa i długość całkowitą bluzy. W spodniach porównaj szerokość pasa i długość nogawki. Sprawdź, czy sprzedawca podaje szerokość na płasko, czy pełny obwód.</p>
+          <p>Przy wyborze T-shirtu sprawdź skład tkaniny i szerokość ramion. Gdy porównujesz dwie oferty, zachowaj pomiary w centymetrach i zapisz datę sprawdzenia wariantu.</p>
+        </article>
+        <article>
+          <h3>Jak oszacować koszt paczki do Polski?</h3>
+          <p>Uwzględnij cenę produktu, kurs przeliczenia na PLN, wysyłkę krajową, opłatę pośrednika i koszt wysyłki międzynarodowej. Sprawdź też, czy wycena zawiera ewentualne należności importowe.</p>
+          <p>Zapytaj, jak przewoźnik rozlicza wagę gabarytową oraz jak zmienią się wymiary paczki po dodaniu pudełka. Przed płatnością przeczytaj warunki zwrotu i sprawdź, kto opłaca przesyłkę zwrotną.</p>
+        </article>
+      </div>
+    </section>
+    <section class="section faq" aria-labelledby="pytania">
+      <p class="eyebrow">05 / FAQ</p>
+      <h2 id="pytania">Najczęstsze pytania</h2>
+      <details open>
+        <summary>Co to jest PonyBuy spreadsheet?</summary>
+        <p>To określenie katalogu znalezisk i linków do produktów. Na tej stronie kategorie prowadzą do Hipobuyfind, gdzie można przeglądać produkty według rodzaju.</p>
+      </details>
+      <details>
+        <summary>Gdzie znaleźć linki do produktów i zdjęcia QC?</summary>
+        <p>Otwórz kategorię i kartę wybranego produktu. Jeśli sprzedawca lub pośrednik udostępnia zdjęcia QC, sprawdź, czy dotyczą wybranego koloru, rozmiaru i egzemplarza.</p>
+      </details>
+      <details>
+        <summary>Jak dobrać rozmiar butów przy zakupie online?</summary>
+        <p>Zmierz obie stopy w centymetrach i użyj wyniku dla dłuższej stopy. Porównaj go z tabelą dla konkretnego modelu i upewnij się, czy tabela podaje długość stopy, czy długość wkładki.</p>
+      </details>
+      <details>
+        <summary>Jak sprawdzić łączny koszt dostawy do Polski?</summary>
+        <p>Sprawdź cenę produktu i walutę, a potem dodaj wysyłkę krajową, opłatę pośrednika, koszt wysyłki międzynarodowej i ewentualne należności importowe. Porównuj wyceny w tej samej walucie.</p>
+      </details>
+      <details>
+        <summary>Czy zdjęcia QC potwierdzają autentyczność produktu?</summary>
+        <p>Same zdjęcia QC pomagają ocenić widoczne cechy, takie jak szwy, etykieta i kolor. Do sprawdzenia autentyczności potrzebne są informacje o pochodzeniu i dokument zakupu od wiarygodnego sprzedawcy.</p>
+      </details>
+    </section>
+  </main>
+  <footer class="dark">
+    <div class="wrap foot">
+      <p>Przewodnik redakcyjny · nazwy marek identyfikują przykładowe modele.</p>
+      <a class="brand" href="https://www.hipobuyfind.com">hipobuyfind.com</a>
+    </div>
+  </footer>
+</body>
+</html>
